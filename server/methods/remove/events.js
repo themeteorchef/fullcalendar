@@ -1,9 +1,9 @@
 Meteor.methods({
-  removeServerOnly( documentId ) {
-    check( documentId, String );
+  removeEvent( event ) {
+    check( event, String );
 
     try {
-      return Documents.remove( documentId );
+      return Events.remove( event );
     } catch ( exception ) {
       throw new Meteor.Error( '500', `${ exception }` );
     }

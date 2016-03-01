@@ -15,7 +15,9 @@ module.exports = {
     'Bert': true,
     'BlazeLayout': true,
     'Documents': true,
+    'Events': true,
     'FlowRouter': true,
+    'moment': true,
     'Roles': true,
     'SimpleSchema': true
   },

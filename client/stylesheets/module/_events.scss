@@ -1,0 +1,52 @@
+.fc-event-container {
+  padding: 5px !important;
+}
+
+.fc-event {
+  padding: 5px 10px;
+  border-color: #ddd;
+  background: #fff !important;
+
+  .fc-content {
+    color: #444;
+  }
+
+  h4,
+  h5 {
+    margin: 0;
+    font-weight: normal;
+  }
+
+  h4 {
+    color: #666;
+    font-size: 13px;
+    line-height: 18px;
+    white-space: normal;
+  }
+
+  h5 {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .guest-count {
+    margin: 5px 0;
+  }
+
+  p[class^="type-"] {
+    margin: 0;
+  }
+
+  p[class="type-Corporate"] {
+    color: red;
+  }
+
+  p[class="type-Wedding"] {
+    color: green;
+  }
+
+  p[class="type-Birthday"] {
+    color: blue;
+  }
+}
