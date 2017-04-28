@@ -1,3 +1,7 @@
+**Heads Up**: this is a scratch repo used for testing out code on [the tutorial at this link](https://themeteorchef.com/tutorials/reactive-calendars-with-fullcalendar). It should work okay but may have a few gotchas.
+
+---
+
 # The Meteor Chef - Base
 A starting point for Meteor apps.
 
