@@ -3,7 +3,7 @@ Meteor.methods({
     check( event, {
       title: String,
       start: String,
-      end: Match.Optional( String ),
+      end: String,
       type: String,
       guests: Number
     });

@@ -23,8 +23,7 @@ let EventsSchema = new SimpleSchema({
   },
   'end': {
     type: String,
-    label: 'When this event will end.',
-    optional: true
+    label: 'When this event will end.'
   },
   'type': {
     type: String,
@@ -33,8 +32,7 @@ let EventsSchema = new SimpleSchema({
   },
   'guests': {
     type: Number,
-    label: 'The number of guests expected at this event.',
-    optional: true
+    label: 'The number of guests expected at this event.'
   }
 });
 

@@ -3,17 +3,14 @@ Meteor.methods({
     check( event, {
       _id: String,
       title: Match.Optional( String ),
-      start: Match.Optional( String ),
-      end: Match.Optional( String ),
+      start: String,
+      end: String,
       type: Match.Optional( String ),
       guests: Match.Optional( Number )
     });
 
-    let eventId = event._id;
-    delete event._id;
-
     try {
-      return Events.update( eventId, {
+      return Events.update( event._id, {
         $set: event
       });
     } catch ( exception ) {

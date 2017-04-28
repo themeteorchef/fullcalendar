@@ -91,7 +91,7 @@ templating@1.1.6-modules.8
 templating-tools@1.0.1-modules.8
 themeteorchef:bert@2.1.0
 themeteorchef:jquery-validation@1.14.0
-themeteorchef:seeder@0.1.0
+themeteorchef:seeder@0.2.0
 tracker@1.0.10-modules.8
 twbs:bootstrap@3.3.6
 ui@1.0.8
